@@ -1,3 +1,3 @@
 # EV3_Controller
 
-https://img.shields.io/github/downloads/JuniorJacki/EV3_Controller/total
+<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/JuniorJacki/EV3_Controller/total?label=Downloads&logo=GITHUB&logoColor=%23ff0000">
