@@ -1,10 +1,6 @@
 # EV3_Controller
-
-
-
-[Documentation](https://documentation.com/)
-
-## Referenz
+**by JuniorJacki
+## Used APIs:
 - [Legoev3](https://github.com/BrianPeek/legoev3)
 
 ## Entwicklung
