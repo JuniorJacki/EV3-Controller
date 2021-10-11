@@ -1,5 +1,5 @@
 # EV3_Controller
-**by JuniorJacki
+**by JuniorJacki**
 ## Used APIs:
 - [Legoev3](https://github.com/BrianPeek/legoev3)
 
