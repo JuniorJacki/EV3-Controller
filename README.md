@@ -10,7 +10,7 @@
 
 ## Service
 - Support: fake@fakemail.com
-
+- [Discord](https://discord.gg/pf4FaBXtX7)
 
 
 ![GitHub all releases](https://img.shields.io/github/downloads/JuniorJacki/EV3-Controller/total?label=Downloads&logo=GITHUB&logoColor=%23ff0000) 
