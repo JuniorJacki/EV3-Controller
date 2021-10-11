@@ -3,15 +3,14 @@
 ## Used APIs:
 - [Legoev3](https://github.com/BrianPeek/legoev3)
 
-Release Demnächst
+Release demnächst
 
 ## Entwicklung
 
 ```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
+private void startapplication()
+{
+...
 }
 ```
 
