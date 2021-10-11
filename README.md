@@ -7,6 +7,16 @@
 ## Referenz
 - [Legoev3](https://github.com/BrianPeek/legoev3)
 
+## Entwicklung
+
+```javascript
+import Component from 'my-project'
+
+function App() {
+  return <Component />
+}
+```
+
 
 ## Service
 - Support: fake@fakemail.com
