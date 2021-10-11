@@ -5,7 +5,7 @@
 [Documentation](https://documentation.com/)
 
 ## Referenz
--[Legoev3](https://github.com/BrianPeek/legoev3)
+- [Legoev3](https://github.com/BrianPeek/legoev3)
 
 
 ## Service
