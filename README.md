@@ -16,7 +16,7 @@ private void startapplication()
 
 
 ## Service
-- Support: In Development
+- Support: juniorjacki@protonmail.com
 - Website: https://juniorjacki.github.io/EV3-Controller/
 - Development-Server: [Discord](https://discord.gg/pf4FaBXtX7)
 
