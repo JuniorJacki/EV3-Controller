@@ -16,7 +16,7 @@ private void startapplication()
 
 
 ## Service
-- Support: fake@fakemail.com
+- Support: In Development
 - Website: https://juniorjacki.github.io/EV3-Controller/
 - Development-Server: [Discord](https://discord.gg/pf4FaBXtX7)
 
