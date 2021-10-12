@@ -1,0 +1,25 @@
+﻿<Window x:Class="EV3_Control.windows.connectbase"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EV3_Control.windows"
+        mc:Ignorable="d"
+        Title="connectbase" WindowStartupLocation="CenterOwner" WindowStyle="None" Background="Transparent" Height="300" Width="400" MouseDown="Window_MouseDown">
+    <Grid Background="Transparent">
+        <Border CornerRadius="10" Background="#FF27292C"></Border>
+        <Button Style="{StaticResource closebutton}" Content="x" Margin="0,0,0,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="35"  Foreground="White" BorderBrush="{x:Null}" Click="close_Click" FontSize="15" Cursor="Hand" ClickMode="Press" Height="30" FontFamily="Verdana"  />
+        <Border>
+            <Grid>
+                <ComboBox  Style="{StaticResource ComboBoxFlatStyle}" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="144"  Foreground="Black">
+                    <ComboBoxItem>ComboBox Item #1</ComboBoxItem>
+                    <ComboBoxItem IsSelected="True">ComboBox Item #2</ComboBoxItem>
+                    <ComboBoxItem>ComboBox Item #3</ComboBoxItem>
+                </ComboBox>
+                <StackPanel Margin="0,60,40,0"></StackPanel>
+                
+
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,90 @@
+﻿<Window x:Class="EV3_Control.windows.preferences"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EV3_Control.windows"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterOwner" 
+        Title="preferences" Height="600" Width="800" MinHeight="600" MinWidth="800" ResizeMode="CanResizeWithGrip" WindowStyle="None" AllowsTransparency="True" Background="Transparent"  MouseDown="Window_MouseDown">
+    <Grid Background="Transparent">
+        <Border CornerRadius="15" Background="#393B40">
+
+
+
+        </Border>
+        <Button Style="{StaticResource closebutton}" Content="x" Margin="0,0,0,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="35"  Foreground="White" BorderBrush="{x:Null}" Click="close_Click" FontSize="15" Cursor="Hand" ClickMode="Press" Height="30" FontFamily="Verdana"  />
+
+        <Border  CornerRadius="10" Background="#2F3136" Margin="10,5,40,5">
+            
+
+
+                <Border  CornerRadius="10,0,0,10" Background="#FF27292C" Margin="0,0,0,0" VerticalAlignment="Stretch" HorizontalAlignment="Left" >
+                    <StackPanel Orientation="Vertical">
+                        <Label  Content="Einstellungen" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Margin="0,10,0,0" Width="200" FontFamily="Orbitron" FontSize="18" Height="31" TextOptions.TextHintingMode="Animated" FontWeight="ExtraLight" Foreground="#FFFAECEC"/>
+
+                        <Button Content="test" Foreground="GhostWhite" Style="{StaticResource settingswitchbuttons}"  Height="30" Margin="0,20,0,10"/>
+                        <Button Content="test" Foreground="GhostWhite" Style="{StaticResource settingswitchbuttons}"  Height="30" Margin="0,10,0,10"/>
+                    <Button Content="test" Foreground="GhostWhite" Style="{StaticResource settingswitchbuttons}"  Height="30" Margin="0,10,0,10"/>
+                    <Button Content="test" Foreground="GhostWhite" Style="{StaticResource settingswitchbuttons}"  Height="30" Margin="0,10,0,10"/>
+                    <Button Content="test" Foreground="GhostWhite" Style="{StaticResource settingswitchbuttons}"  Height="30" Margin="0,10,0,10"/>
+                    <Button Content="test" Foreground="GhostWhite" Style="{StaticResource settingswitchbuttons}"  Height="30" Margin="0,10,0,10"/>
+                    <Button Content="test" Foreground="GhostWhite" Style="{StaticResource settingswitchbuttons}"  Height="30" Margin="0,10,0,10"/>
+                    <Button Content="test" Foreground="GhostWhite" Style="{StaticResource settingswitchbuttons}"  Height="30" Margin="0,10,0,10"/>
+                    <Button Content="test" Foreground="GhostWhite" Style="{StaticResource settingswitchbuttons}"  Height="30" Margin="0,10,0,10"/>
+                    <Button Content="test" Foreground="GhostWhite" Style="{StaticResource settingswitchbuttons}"  Height="30" Margin="0,10,0,10"/>
+                </StackPanel>
+                </Border>
+
+            
+     
+
+
+        </Border>
+
+        <Border CornerRadius="10" Margin="220,5,40,5">
+            <Border CornerRadius="0,10,10,0" HorizontalAlignment="Stretch" Background="#FF27292C" VerticalAlignment="Stretch" Margin="0,0,0,0">
+
+                <Grid>
+                <StackPanel >
+                    <Label  Content="Test" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="10,10,0,0" Width="100" FontFamily="Orbitron" FontSize="18" Height="31" TextOptions.TextHintingMode="Animated" FontWeight="ExtraLight" Foreground="#FFFAECEC"/>
+
+                  
+          
+                </StackPanel>
+                    <!-- Preference 1 -->
+                    <StackPanel Margin="0,50,0,0"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Button Content="test" Foreground="GhostWhite" Style="{StaticResource settingswitchbuttons}"  Height="30" Margin="0,10,0,10"/>
+                    </StackPanel>
+                    <!-- Preference 2 -->
+                    <StackPanel Visibility="Hidden" Margin="0,50,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+
+                    </StackPanel>
+                    <!-- Preference 3 -->
+                    <StackPanel Visibility="Hidden" Margin="0,50,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+
+                    </StackPanel>
+                    <!-- Preference 4 -->
+                    <StackPanel Visibility="Hidden" Margin="0,50,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+
+                    </StackPanel>
+                    <!-- Preference 5 -->
+                    <StackPanel Visibility="Hidden" Margin="0,50,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+
+                    </StackPanel>
+                    <!-- Preference 6 -->
+                    <StackPanel Visibility="Hidden" Margin="0,50,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+
+                    </StackPanel>
+                    <!-- Preference 7 -->
+              
+                </Grid>
+            </Border>
+            
+        </Border>
+
+
+
+
+    </Grid>
+</Window>
