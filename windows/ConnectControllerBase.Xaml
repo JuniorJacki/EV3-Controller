@@ -1,0 +1,151 @@
+﻿<Window x:Class="EV3_Control.windows.ConnectControllerBase"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EV3_Control.windows"
+         mc:Ignorable="d"
+        Title="connectbase" AllowsTransparency="True" WindowStartupLocation="CenterOwner" WindowStyle="None" Background="Transparent" Height="300" ResizeMode="NoResize" Width="600" MouseDown="Window_MouseDown">
+    <Window.Resources>
+        <Style x:Key="connectcontrollerbasewiimotebutton" TargetType="Button">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Foreground" Value="FloralWhite"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border" 
+                        BorderThickness="1"
+                        Padding="4,2"    
+                     CornerRadius="2"
+                        Background="{TemplateBinding Background}" BorderBrush="RoyalBlue">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="DimGray" />
+
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="connectcontrollerbasehelpbutton" TargetType="Button">
+            <Setter Property="OverridesDefaultStyle" Value="True"/>
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Name="border" 
+                        BorderThickness="1"
+                        Padding="4,2"    
+                     CornerRadius="1"
+                        Background="{TemplateBinding Background}" BorderBrush="YellowGreen">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="DimGray" />
+
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </Window.Resources>
+    <Grid Background="Transparent">
+        <Border CornerRadius="10" Background="#393B40"></Border>
+        <Button Style="{StaticResource closebutton}" Content="-" Margin="0,0,0,0" HorizontalAlignment="Right" VerticalAlignment="Top" Width="35"  Foreground="White" BorderBrush="Transparent" Click="close_Click" FontSize="15" Cursor="Hand" ClickMode="Press" Height="30" FontFamily="Verdana"  />
+
+        <!-- GUI -->
+        <Grid>
+            <!-- Tabbuttons -->
+            <Grid Height="60" Margin="0,0,40,240">
+                <StackPanel Orientation="Horizontal">
+                    <Button IsEnabled="False" Content="PSController" Foreground="#FF5EA1FF" Style="{StaticResource connectcontrollerwindowtab1}" Height="34" Width="120" Margin="10,0,10,0" />
+                    <Button IsEnabled="False" Content="EV3Controller" Foreground="#FF349B2F" Style="{StaticResource connectcontrollerwindowtab2}" Height="34" Width="120" Margin="10,0,10,0"  />
+                    <Button Content="Wiimote" Foreground="#FFFEFFB2" Style="{StaticResource connectcontrollerwindowtab3}" Height="34" Width="110" Margin="10,0,10,0" />
+                    <Button IsEnabled="False" Content="Kommt demnächst" Foreground="#FFE04141" Style="{StaticResource connectcontrollerwindowtab4}" Height="34" Width="120" Margin="10,13" Background="{x:Null}" />
+
+                </StackPanel>
+            </Grid>
+
+            <Border CornerRadius="5" Background="#FF2B2C2F" Margin="10,62,40,10">
+                <Grid>
+                    <!-- PSController -->
+                    <Grid x:Name="PSController" Visibility="Hidden">
+
+                        <Label Foreground="White" HorizontalContentAlignment="Center" FontSize="20" VerticalAlignment="Center">Noch nicht implementiert!</Label>
+
+                    </Grid>
+                    <!-- EV3Controller -->
+                    <Grid x:Name="EV3Controller">
+                        
+                    </Grid>
+                    <!-- WiimoteController -->
+                    <Grid x:Name="WiimoteController" Visibility="visible">
+                        <Grid HorizontalAlignment="Right" Width="100" >
+                            <Button Click="Helpbutton_Click" x:Name="Helpbutton" Style="{StaticResource connectcontrollerbasehelpbutton}" Foreground="White" Margin="10,34,5,158" RenderTransformOrigin="0.516,0.241">Hilfe Öffnen</Button>
+                            <Image Source="/assets/icons/wiimote_icon.png" Margin="0,70,0,0"></Image>
+                        </Grid>
+                        <StackPanel>
+                            <Label FontSize="14"  Foreground="Wheat" FontFamily="Sylfaen">Wiimote</Label>
+                        <StackPanel Orientation="Vertical" Margin="5,5,100,0">
+                            <Border  BorderThickness="0.5" BorderBrush="Aqua">
+                                <StackPanel Margin="5,5,5,5">
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label Foreground="White" FontSize="10">1.</Label>
+                                        <Label Foreground="White" FontSize="10">----------------------</Label>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label Foreground="White" FontSize="10">2.</Label>
+                                        <Label Foreground="White" FontSize="10">----------------------</Label>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label Foreground="White" FontSize="10">3.</Label>
+                                        <Label Foreground="White" FontSize="10">----------------------</Label>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label Foreground="White" FontSize="10">4.</Label>
+                                        <Label Foreground="White" FontSize="10">----------------------</Label>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label Foreground="White" FontSize="10">5.</Label>
+                                        <Label Foreground="White" FontSize="10">----------------------</Label>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label Foreground="White" FontSize="10">6.</Label>
+                                        <Label Foreground="White" FontSize="10">----------------------</Label>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label Foreground="White" FontSize="10">7.</Label>
+                                            <Label Foreground="White" FontSize="10">Drück den Knopf </Label>
+                                            <Label Margin="25,0,25,0" Foreground="White" FontSize="10" FontFamily="SimSun">-------------------------></Label>
+                                            <Button x:Name="Connectowiimote" Click="Connectowiimote_Click"  Height="22" Style="{StaticResource connectcontrollerbasewiimotebutton}" FontFamily="Tempus Sans ITC">Verbindung aufbauen</Button>
+                                    </StackPanel>
+                                    
+                                    
+                                </StackPanel>
+                            </Border>
+                        </StackPanel>
+                        </StackPanel>
+
+
+
+                    </Grid>
+                    <!-- AppController -->
+                    <Grid x:Name="AppController" >
+                        <!-- Nothing in this Version -->
+                    </Grid>
+
+                </Grid>
+            </Border>
+
+
+        </Grid>
+
+    </Grid>
+</Window>
