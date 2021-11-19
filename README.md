@@ -4,8 +4,6 @@
 - [Legoev3](https://github.com/BrianPeek/legoev3)
 - [WiimoteLib](https://github.com/BrianPeek/WiimoteLib)
 
-Release demnächst
-
 ## Entwicklung
 
 ```javascript
