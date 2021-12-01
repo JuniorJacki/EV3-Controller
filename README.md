@@ -16,7 +16,7 @@ private void startapplication()
 
 ## Service
 - Website: https://juniorjacki.github.io/EV3-Controller/
-- Support: [Discord](https://discord.gg/pf4FaBXtX7)
+- Support: [Discord](https://discord.gg/du4dMjskNF)
 
 
 ![GitHub all releases](https://img.shields.io/github/downloads/JuniorJacki/EV3-Controller/total?label=Downloads&logo=GITHUB&logoColor=%23ff0000) 
