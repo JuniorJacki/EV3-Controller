@@ -6,13 +6,7 @@
 
 ## Entwicklung
 
-```javascript
-private void startapplication()
-{
-...
-}
-```
-
+Dauer: ca 48 h
 
 ## Service
 - Website: https://juniorjacki.github.io/EV3-Controller/
