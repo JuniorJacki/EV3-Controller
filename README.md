@@ -1,7 +1,7 @@
- # Dieses Projekt wird nicht mehr Aktualisiert
- 
+
  # EV3_Controller
-**by GowySource**
+**by Javarock**
+### Dieses Projekt wird nicht mehr Aktualisiert
 ## Used APIs:
 - [Legoev3](https://github.com/BrianPeek/legoev3)
 - [WiimoteLib](https://github.com/BrianPeek/WiimoteLib)
