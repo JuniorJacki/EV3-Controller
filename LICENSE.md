@@ -1,6 +1,4 @@
-MIT License
-
-Copyright (c) 2022 JuniorJacki
+Copyright (c) 2023 JuniorJacki
 
 Permission is hereby granted, free of charge, to any person who acquires a copy of this software and associated documentation files (the "Software")
 to use this Software subject to the following conditions:
