@@ -1,6 +1,6 @@
 
  # EV3_Controller
-**by Javarock**
+**by JuniorJacki**
 ### Dieses Projekt wird nicht mehr Aktualisiert
 ## Used APIs:
 - [Legoev3](https://github.com/BrianPeek/legoev3)
