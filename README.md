@@ -1,6 +1,15 @@
-
  # EV3_Controller
 **by JuniorJacki**
+
+A C# WPF Programm that connect's to a Lego Mindestorms EV3 Hub.
+
+Functionalities:
+- Read Sensor Data
+- Control Motors over variable Input
+  - WiiMote
+  - Keybindings 
+
+
 ### Dieses Projekt wird nicht mehr Aktualisiert
 ## Used APIs:
 - [Legoev3](https://github.com/BrianPeek/legoev3)
